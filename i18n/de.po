@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: Jacob Cook <jacob@citizenweb.is>\n"
 "POT-Creation-Date: 2013-10-17 15:52-0400\n"
 "PO-Revision-Date: 2013-11-23 10:12+0000\n"
-"Last-Translator: Cathryne <cathryne.linenweaver@gmail.com>\n"
+"Last-Translator: Georg Schwering <georgschwering@web.de>\n"
 "Language-Team: ENGLISH <jacob@citizenweb.is>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Fehler"
 
 #: Installer.py:75 Installer.py:71
 msgid "Success"
-msgstr "Erfolg"
+msgstr "Erfolgreich"
 
 #: Installer.py:99 Installer.py:828 Installer.py:95 Installer.py:818
 msgid "arkOS Installer"
@@ -32,7 +32,7 @@ msgstr "arkOS Installer"
 
 #: Installer.py:102 Installer.py:98
 msgid "Install arkOS to an SD card"
-msgstr "Installieren Sie arkOS auf einer SD-Karte"
+msgstr "arkOS auf einer SD-Karte installieren"
 
 #: Installer.py:105 Installer.py:101
 msgid "Search the network for arkOS devices"
@@ -43,16 +43,16 @@ msgid ""
 "You do not have sufficient privileges to run this program. Please run sudo "
 "Installer.py instead."
 msgstr ""
-"Sie haben nicht genügend Rechte um dieses Programm auszuführen. Bitte führen "
-"Sie stattdessen sudo Install.py aus."
+"Sie haben keine ausreichenden Rechte um dieses Programm auszuführen. Bitte  "
+"führen Sie stattdessen sudo Install.py aus."
 
 #: Installer.py:143
 msgid ""
 "You need nmap installed in order to use this. Please install it from your "
 "distribution's software center or repositories."
 msgstr ""
-"Du musst nmap installieren um dies zu nutzen. Bitte installiere es von dem "
-"Software-Center oder den Paketquellen deiner Distribution."
+"Sie benötigen nmap dieses zu nutzen. Bitte installiere nmap aus dem "
+"Software-Center oder den Paketquellen Ihrer Distribution."
 
 #: Installer.py:158 Installer.py:151
 msgid "Authenticate"
@@ -61,7 +61,7 @@ msgstr "Authentifizieren"
 #: Installer.py:162 Installer.py:155
 msgid "<b>Give the username/password of a qualified user on the device</b>"
 msgstr ""
-"<b>Tragen Sie Benutzername und Passwort eines qualifizierten Benutzers auf "
+"<b>Tragen Sie Benutzernamen und Passwort eines qualifizierten Benutzers auf "
 "diesem Gerät ein</b>"
 
 #: Installer.py:165 Installer.py:161
@@ -95,8 +95,8 @@ msgid ""
 "Signal to %s sent successfully, but I didn't get a response. Your command "
 "may or may not have completed."
 msgstr ""
-"Signal an %s erfolgreich gesendet, aber ich habe keine Antwort bekommen. Ihr "
-"Kommando wurde vielleicht ausgeführt, vielleicht auch nicht."
+"Signal an %s erfolgreich gesendet ohne eine  Antwort zu bekommen. Ihr "
+"Kommando wurde vielleicht ausgeführt, vielleicht aber auch nicht."
 
 #: Installer.py:221 Installer.py:211
 #, python-format
@@ -135,11 +135,11 @@ msgstr "Herunterfahren"
 
 #: Installer.py:260 Installer.py:250
 msgid "Restart"
-msgstr "Neustart"
+msgstr "Neustarten"
 
 #: Installer.py:265 Installer.py:255
 msgid "Reload Genesis"
-msgstr "Neu starten"
+msgstr "Genesis neu laden"
 
 #: Installer.py:315 Installer.py:306
 msgid ""
@@ -182,8 +182,8 @@ msgstr ""
 "Installation des arkOS-Images auf eine an den Computer angeschlossene SD-"
 "Karte begleiten.\n"
 "\n"
-"Bitte stellen Sie sicher, dass Ihr Computer am Internet angeschlossen ist, "
-"bevor Sie ''Forward'' klicken. Ihr Computer wird sodann das arkOS-Image zur "
+"Bitte stellen Sie sicher, dass Ihr Computer mit dem Internet verbunden ist, "
+"bevor Sie ''Forward'' klicken. Ihr Computer wird dann das arkOS-Image zur "
 "Vorbereitung der Installation von unseren Servern herunterladen."
 
 #: Installer.py:413 Installer.py:404
@@ -196,7 +196,7 @@ msgstr "Wählen Sie einen Download-Server in Ihrer Nähe."
 
 #: Installer.py:418 Installer.py:601 Installer.py:408 Installer.py:593
 msgid "New York (United States)"
-msgstr "New York (Vereinigte Staaten von Amerika)"
+msgstr "New York (Vereinigte Staaten)"
 
 #: Installer.py:419 Installer.py:593 Installer.py:409 Installer.py:585
 msgid "Amsterdam (Netherlands)"
@@ -227,8 +227,8 @@ msgid ""
 msgstr ""
 "Bitte wählen Sie die SD-Karte aus der Liste unten aus. Speichermedien "
 "kleiner als 2 GB werden nicht angezeigt. Es ist sehr wichtig, dass Sie das "
-"korrekte Medium auswählst, da sonst ein Teil des Systems schwer beschädigt "
-"werden kann."
+"korrekte Medium auswählst, da sonst ein anderes Laufwerk Ihres Computers schwer "
+"beschädigt werden kann."
 
 # Da es sich um eine SD-Karte handelt, würde ich nicht von Laufwerken reden.
 #: Installer.py:469 Installer.py:459
@@ -254,15 +254,15 @@ msgid ""
 "<br><br><b>NOTE that there is no way to halt the writing process once it "
 "begins.</b><br>"
 msgstr ""
-"Bitte bestätigen Sie die Details unten. Nachdem Sie ''Start'' geklickt "
-"haben, wird der Download beginnen, das ausgewählte Speichermedium wird "
+"Bitte bestätigen Sie die untenstehenden Details. Nachdem Sie ''Start'' "
+"gewählt haben, beginnt der Download, das ausgewählte Speichermedium wird "
 "gelöscht und alle Daten darauf überschrieben.<br><br><b>BEACHTEN Sie bitte, "
-"dass es nicht möglich sein wird, den Schreibprozess anzuhalten, nachdem er "
+"dass es nicht möglich ist, den Schreibprozess anzuhalten, nachdem er "
 "begonnen hat.</b><br>"
 
 #: Installer.py:563 Installer.py:555
 msgid "Start Download/Install"
-msgstr "Download/Installation starten"
+msgstr "Download und Installation starten"
 
 #: Installer.py:578 Installer.py:570
 msgid "<b>Mirror:</b> Amsterdam (Netherlands)"
@@ -274,15 +274,15 @@ msgstr "<b>Mirror:</b> Frankfurt (Deutschland)"
 
 #: Installer.py:582 Installer.py:574
 msgid "<b>Mirror:</b> Orlando (United States)"
-msgstr "<b>Spiegelserver:</b> New York (Vereinigte Staaten)"
+msgstr "<b>Mirror:</b> New York (Vereinigte Staaten)"
 
 #: Installer.py:584 Installer.py:576
 msgid "<b>Mirror:</b> Vienna (Austria)"
-msgstr "<b>Spiegelserver:</b> Wien (Österreich)"
+msgstr "<b>Mirror:</b> Wien (Österreich)"
 
 #: Installer.py:586 Installer.py:578
 msgid "<b>Mirror:</b> New York (United States)"
-msgstr "<b>Spiegelserver:</b> New York (Vereinigte Staaten)"
+msgstr "<b>Mirror:</b> New York (Vereinigte Staaten)"
 
 #: Installer.py:587 Installer.py:579
 #, python-format
@@ -296,7 +296,7 @@ msgstr "Installiere arkOS..."
 #: Installer.py:607 Installer.py:599
 #, python-format
 msgid "<b>Downloading image from %s...</b>"
-msgstr "<b>Lade die Abbilddatei vom Server in %s... </b>"
+msgstr "<b>Lade arkOS vom Server in %s... </b>"
 
 #: Installer.py:634 Installer.py:655 Installer.py:626 Installer.py:646
 #, python-format
@@ -308,9 +308,9 @@ msgid ""
 "HTTP Error %s"
 msgstr ""
 "Die Datei konnte nicht heruntergeladen werden. Bitte überprüfen Sie Ihre "
-"Internetverbindung. Wenn das Problem weiterhin auftritt, obwohl die "
+"Internetverbindung. Wenn das Problem weiterhin besteht, obwohl die "
 "Internetverbindung funktioniert, nehmen Sie bitte Kontakt zum arkOS "
-"Maintainer auf. \n"
+"Team auf. \n"
 " \n"
 " HTTP Fehler %s"
 
@@ -325,8 +325,8 @@ msgid ""
 "it will redownload the package. If this error persists, please contact the "
 "arkOS maintainers."
 msgstr ""
-"Installation fehlgeschlagen: MD5-Prüfsummen stimmen nicht überein. Bitte "
-"starten Sie den Installer erneut und er wird das Installationspaket neu "
+"Installation fehlgeschlagen: Die MD5-Prüfsummen stimmen nicht überein. Bitte "
+"starten Sie den Installer erneut um  das Installationspaket neu "
 "herundeladen. Falls diese Fehler weiterhin auftritt, bitte wenden Sie sich "
 "an die arkOS-Entwickler."
 
@@ -350,8 +350,8 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"Der Schreibprozess auf das Speichermedium schlug mit der folgenden "
-"Fehlermeldung fehl:\n"
+"Der Schreibprozess auf das Speichermedium scheiterte mit der folgenden "
+"Fehlermeldung:\n"
 "\n"
 "%s"
 
@@ -366,13 +366,13 @@ msgstr "{:0.1f} von {:0.1f} MB - {}%"
 
 #: Installer.py:702 Installer.py:693
 msgid "<b>Package found in working directory!</b> Checking authenticity..."
-msgstr "<b>Paket im Arbeitsverzeichnis gefunden!</b> Echtheit wird überprüft..."
+msgstr "<b>Installationspaket im Arbeitsverzeichnis gefunden!</b> Echtheit wird überprüft..."
 
 #: Installer.py:710 Installer.py:736 Installer.py:700 Installer.py:726
 msgid ""
 "Package found in working directory, but MD5 check failed. Redownloading..."
 msgstr ""
-"Paket im Arbeitsverzeichnis gefunden, aber MD5-Überprüfung fehlgeschlagen. "
+"Installationspaket im Arbeitsverzeichnis gefunden, aber MD5-Überprüfung fehlgeschlagen. "
 "Lade erneut herunter..."
 
 #: Installer.py:715 Installer.py:741 Installer.py:705 Installer.py:731
@@ -397,16 +397,16 @@ msgid ""
 msgstr ""
 "Glückwunsch! Ihr arkOS-Image wurde erfolgreich auf die SD-Karte "
 "geschrieben.<br><br>Stecken Sie die SD-Karte in Ihren Raspberry Pi und "
-"verbinden Sie ihn mit Ihrem Router.<br><br>Nach 1 oder 2 Minuten können Sie "
-"mit der Einrichtung Ihres Servers weitermachen, indem du Ihren Browser mit "
+"verbinden Sie ihn mit Ihrem Router.<br><br>Nach 1 bis 2 Minuten können Sie "
+"mit der Einrichtung Ihres Servers beginnen, indem Sie Ihren Browser mit "
 "Genesis über die folgende Adresse verbinden:<br><b>http://arkOS:8000</b><br> "
-"oder die ''Network Browser''-Option in diesem Installer benutzen, um die "
-"IP-Adresse zu finden.<br><br>Ihre Genesis-Logindaten sind "
+"oder die ''Network Browser''-Funktion in diesem Installer benutzen, um die "
+"IP-Adresse zu ermitteln.<br><br>Ihre Genesis-Logindaten sind "
 "standardmäßig:<br>Nutzername: <b>admin</b><br>Passwort: <b>admin</b>"
 
 #: Installer.py:788 Installer.py:778
 msgid "Remove the downloaded files from your computer on exit"
-msgstr "Die heruntergeladenen Dateien von Deinem Computer beim Beenden löschen"
+msgstr "Die heruntergeladenen Dateien von Ihrem Computer beim Beenden löschen"
 
 #: Installer.py:847 Installer.py:837
 msgid "Quit?"
@@ -420,18 +420,18 @@ msgid ""
 "If a disk write operation is in progress, this will not be able to stop that "
 "process."
 msgstr ""
-"Bist du sicher, dass du beenden möchtest? Die Installation ist noch nicht "
-"komplett und Du wirst die SD-Karte nicht benutzen können.\n"
+"Sind Sie sicher, dass sie die Installation beenden möchten? Die Installation "
+"ist noch nicht beendet und die SD-Karte kann nicht benutzt werden.\n"
 "\n"
 "Wenn eine Schreiboperation im Gange ist, wird sie nicht ebenfalls beendet "
-"werden."
+"werden können."
 
 #: Installer.py:121
 msgid ""
 "You do not have sufficient privileges to run this program. Please run the "
 "arkOS Installer app from your Applications folder."
 msgstr ""
-"Sie haben keine ausreichenden Privilegien um dieses Programm zu starten. "
+"Sie haben keine ausreichenden Rechte um dieses Programm zu starten. "
 "Bitte starten Sie den arkOS Installer aus Ihrem Programm-Ordner."
 
 #: Installer.py:136
@@ -439,23 +439,23 @@ msgid ""
 "You need nmap installed in order to use this. Please go to <a href=\"http://"
 "nmap.org/download.html#macosx\">their website</a> to download."
 msgstr ""
-"Du musst nmap installiert haben, um dies zu tun. Bitte öffne <a "
-"href=\"http://nmap.org/download.html#macosx\">their website</a> zum "
-"herunterladen."
+"Sie benötigen nmap, um dieses zu tun. Bitte öffnen Sie die <a "
+"href=\"http://nmap.org/download.html#macosx\">nmap website</a> um "
+"es herunterladen."
 
 #: Installer.py:928
 msgid ""
 "The drive could not be unmounted. Make sure it is not in use before "
 "continuing."
 msgstr ""
-"Das Speichermedium konnte nicht ausgehängt werden. Stelle sicher, dass es "
-"nicht benutzt wird, bevor du fortfährst."
+"Das Speichermedium konnte nicht ausgehängt werden. Stellen Sie vor dem Fortfahren "
+"sicher, dass es nicht benutzt wird."
 
 #~ msgid "Amsterdam (Europe)"
 #~ msgstr "Amsterdam (Europa)"
 
 #~ msgid "<b>Mirror:</b> Amsterdam (European Union)"
-#~ msgstr "<b>Spiegelserver:</b> Amsterdam (Europäische Union)"
+#~ msgstr "<b>Mirror:</b> Amsterdam (Europäische Union)"
 
 #~ msgid "Amsterdam (European Union)"
 #~ msgstr "Amsterdam (Europäische Union)"
